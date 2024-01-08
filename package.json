@@ -1,0 +1,22 @@
+{
+  "name": "unpkg-dl",
+  "version": "1.1.0",
+  "description": "",
+  "scripts": {
+    "start": "node ./index.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "unpkg-dl": "bin/unpkg-dl.mjs"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "arg": "^5.0.2",
+    "axios": "^1.6.5",
+    "colors": "^1.4.0",
+    "esm": "^3.2.25",
+    "puppeteer": "^21.7.0"
+  }
+}
